@@ -13,12 +13,23 @@ app.get('/getUsers', function(req, res){
 
 
 app.get('/getUser/:roll', function(req, res){
-    fs.readFileSync(__dirname + "/" + "users.json", 'utf8', function(err, data){
-        const getUser= function(user){
-            return user.roll === req.params.roll;
+    fs.readFile(__dirname + "/" + "database.json", 'utf8', function(err, data){
+        const getUser = function(curUser){
+            return curUser.roll === req.params.roll;
         }
-        let user = data.map(getUser(user))
-        res.end(user); // you can also use res.send()    
+        data= JSON.parse(data);
+        console.log(data)
+        // console.log(req.params.roll)
+        let user = data.filter((curUser)=>{
+            return curUser.roll === req.params.roll;
+        })
+         // you can also use res.send() 
+        
+        // console.log(req.params.roll)
+        // console.log(data.length)
+        //res.end(JSON.stringify(data)); // you can also use res.send() 
+        // res.end(data)  
+        res.end(JSON.stringify(user)); 
     })
 })
 // Create a server to listen at port 8080
