@@ -1,0 +1,48 @@
+[
+	{
+		"name":"aditya saxena",
+		"roll":"1722210012",
+		"branch":"CSE",
+		"add":{
+				"city":"moradabad",
+				"state":"UP"
+		     	}
+	},
+	{
+		"name":"Surbhi gautam",
+		"roll":"1722231055",
+		"branch":"ECE",
+		"add":{
+				"city":"Delhi",
+				"state":"Delhi"
+		     	}
+	},
+	{
+		"name":"Harsh saxena",
+		"roll":"1722210012",
+		"branch":"CSE",
+		"add":{
+				"city":"moradabad",
+				"state":"UP"
+		     	}
+	},
+	{
+		"name":"Anu",
+		"roll":"1722210012",
+		"branch":"ME",
+		"add":{
+				"city":"moradabad",
+				"state":"UP"
+		     	}
+	},
+	{
+		"name":"Lakshay",
+		"roll":"17222100123",
+		"branch":"CE",
+		"add":{
+				"city":"moradabad",
+				"state":"UP"
+		     	}
+	}
+]
+
