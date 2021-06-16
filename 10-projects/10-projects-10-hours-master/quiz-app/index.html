@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <!-- 
+            tag attributes
+        self closing tags
+        -->
+        <style>
+            /* selectors */
+            /* selecting class */
+            .quiz-container{
+                color:red;
+            }
+            /* selecting id */
+            #question{
+
+            }
+            /* tags selection */
+            div{
+
+            }
+            h2{
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header" style='background-color:aqua'>
+                <!-- separation of concern;maintaining easy ;code is written less than it is read -->
+                <!-- 
+                    Styling
+                1.internal
+            2.inline
+        3.external
+     -->
+     <!-- w3schools -->
+     <!-- div,button, form , h1-h7 , ul ,ol  -->
+                <h2 id="question">Question text</h2>
+                <ul>
+                    <li>
+                        <input
+                            type="radio"
+                            id="a"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="a_text" for="a">Question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            id="b"
+                            name="answer"
+                            class="answer"
+                            />
+                            <label id="b_text" for="b">Question</label>
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                id="c"
+                                name="answer"
+                                class="answer"
+                            />
+                            <label id="c_text" for="c">Question</label>
+                        </li>
+                    <li>
+                        <input
+                            type="radio"
+                            id="d"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="d_text" for="d">Question</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="submit">Submit</button>
+            <!-- events
+            onClick
+        onKeyUp
+    onKeyDown
+onMouseEnter -->
+            <!-- event driven programming -->
+        </div>
+    </body>
+</html>

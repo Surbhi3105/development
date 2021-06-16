@@ -1,0 +1,4 @@
+ejs is an templating engine
+In template we fill the skeleton(Fillups)
+npm start
+this is an electron app(it provides app like feel)

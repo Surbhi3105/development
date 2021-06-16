@@ -1,0 +1,13 @@
+java is plaeform independent language 
+javac creates (.class) Byte code
+highly secured
+
+
+==========================
+git is version control system
+used in while developing project and collabrating with my team
+master branch(working code always resides here, we never pollute it)
+we work in branches
+we can look how our app /product looked lke in past
+
+
